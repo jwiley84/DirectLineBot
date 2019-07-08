@@ -1,0 +1,15 @@
+﻿@model JJDirectLineClient.Models.ChatConfig
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+
+<div id="webchat" role="main" />
+<script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+<script>
+  window.WebChat.renderWebChat({
+    directLine: window.WebChat.createDirectLine({ token: '@Model.Token' }),
+    userID: '@Model.UserId',
+  }, document.getElementById('webchat'));
+</script>
