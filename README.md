@@ -24,9 +24,7 @@ This bot has been created using [Bot Framework](https://dev.botframework.com); t
     ```
 
 - In a terminal, navigate to `/JJDirectLineClient`
-- Run the client controller from a terminal or from Visual Studio
-
-  B) Or from Visual Studio
+- Run the client controller from Visual Studio
 
   - Launch Visual Studio
   - File -> Open -> Project/Solution
